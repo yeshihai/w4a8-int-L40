@@ -30,6 +30,8 @@ from vllm.model_executor.layers.quantization.utils.marlin_utils_test import (
 )
 from vllm.scalar_type import scalar_types
 
+
+// 根据Qwen2.5的模型配置，主要是投影，和Attention以及MLP的Shape
 QWEN25_7B_SHAPES = [
     (3584, 3584),
     (3584, 512),
